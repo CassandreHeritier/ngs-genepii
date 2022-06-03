@@ -16,6 +16,7 @@ Se trouvent dans ce dépôt git :
     - Un dossier *emergen* avec :
         - Un script R *emergen_compare.R* qui permet de comparer le format EMERGEN fonctionnel (utilisé actuellement) avec le format sorti par la librairie Python (en développement)
     - Un package Python fait maison *package_genepii* qui contient :
+        - Un README avec toute la documentation et l'aide à l'utilisation du package 
         - Un dossier *corres* avec toutes les correspondances de noms et de formats (cf. README du package)
         - Un dossier *log* avec : 
             - *sql_statements.log* : contient toutes les dernières requêtes SQL effectuées

@@ -1,0 +1,257 @@
+data_columns;db_columns;method
+W_WW_STAT_NOM;lastname;
+NOM;lastname;check_name
+PRENOM;firstname;check_name
+DDN;birth_date;check_date
+ANNEE;birth_year;
+SEX;sex;
+COMMUNE;township_patient;check_town
+TEL;phone;
+IPP;ipp;
+VACCINATION;vaccination;
+NOM VACCIN;vaccine_name;
+DATE 1er DOSE;date_first_dose;check_date
+DATE 2eme DOSE;date_second_dose;check_date
+DATE DERNIERE DOSE;date_last_dose;check_date
+Enquête FLASH;flash_study2;check_flash_study
+Code Postal Patient;postal_code_patient;check_postal_code
+CODE_POSTAL;postal_code_patient;check_postal_code
+NON VACCINE;not_vaccinated;replace_choice
+DATE_PREL;sampling_date;check_date
+PREL;sampling_date;check_date
+DATE_RECEP;registration_date;check_date
+DATE_VAL;validation_date;check_date
+W_WW_STAT_ID_ECH;id_sample;
+MAT;sampling_type;
+Question (scan info);question_scaninfo;
+Sequence non soumise;unsubmitted_seq_gisaid;replace_choice
+W_WW_DOSSIER_ID;id_medical_file;
+N_VD_STUDY;flash_study1;check_flash_study
+INFOSCAN;infoscan;
+INFOBAND;infoband;
+STHCOV;sthcov;
+EXTRACT;extract;
+CAS GRAVE;serious_case;replace_choice
+ENQUETE DEPISTAGE;detection_survey;replace_choice
+TRAITEMENT AC;ac_treatment;replace_choice
+SITUATION ANORMALE;abnormal_situation;replace_choice
+PAS D'INDICATION;no_indication;replace_choice
+SUS REINFECTION;reinfection;replace_choice
+SUIVI IMMUNODEPRIME;immunosuppressed;replace_choice
+EXPLORATION CLUSTER;cluster;replace_choice
+Ct;ct;
+Présence de symptôme;symptoms;replace_choice
+SUSP COINFECTION;coinfection;replace_choice
+VOYAGE (<15j) / LIEU;abroad_less_14d;replace_choice
+AUTRE;other;
+SURVEIL SENTINELLES;sentinel_surv;replace_choice
+N_VW_NOM;name_sender;
+PRESC_MNEMO;name_sender;
+N_WW_PRESC_CP;department_sender;check_department
+DEPT;department_sender;check_department
+VILLE;town_sender;check_town
+PRESC VILLE;town_sender;check_town
+MNEMONIC_ID;mnemoid_sender;
+Nom labo Préleveur;name_sampler;
+Finess lab préleveur;finess_sampler;
+CP Préleveur;postal_code_sampler;check_postal_code
+Seq SARS-CoV2 NG;nextclade_glims_ng;
+Seq SARS-CoV2 NG2;nextclade_glims_ng2;
+Seq SARS-CoV2 SAL;nextclade_glims_sal;
+Seq SARS-CoV2 SAL2;nextclade_glims_sal2;
+Seq SARS-CoV2 LBA;nextclade_glims_lba;
+Seq SARS-CoV2 LBA2;nextclade_glims_lba2;
+Seq SARS-CoV2 NAPH;nextclade_glims_naph;
+Seq SARS-CoV2 NAPH2;nextclade_glims_naph2;
+Seq SARS-CoV2  TRBR;nextclade_glims_trbr;
+Seq SARS-CoV2 TRBR2;nextclade_glims_trbr2;
+Seq SARS-CoV2 Poumon;nextclade_glims_lung;
+Seq SARS-CoV2 POUM2;nextclade_glims_lung2;
+Seq SARS-CoV2 Autre;nextclade_glims_other;
+Seq SARS-CoV2 Autre2;nextclade_glims_other2;
+Seq SCoV2 PANG NG;pangolin_glims_ng;
+Seq SCoV2 PANG NG2;pangolin_glims_ng2;
+Seq SCoV2 PANG SAL;pangolin_glims_sal;
+Seq SCoV2 PANG LBA;pangolin_glims_lba;
+Seq SCoV2 PANG NAPH;pangolin_glims_naph;
+Seq SCoV2 PANG TRBR;pangolin_glims_trbr;
+Seq SCoV2 PANG POUM;pangolin_glims_lung;
+Seq SCoV2 PANG Autre;pangolin_glims_other;
+COM SEQ COVID NG;comment_glims_ng;
+COM SEQ COVID SAL;comment_glims_sal;
+COM SEQ COVID LBA;comment_glims_lba;
+COM SEQ COVID NAPH;comment_glims_naph;
+COM SEQ COVID TRBR;comment_glims_trbr;
+COM SEQ COVID POUM;comment_glims_lung;
+COM SEQ COVID Autre;comment_glims_other;
+EXT NG;ext_ng;
+EXTNG2;ext_ng2;
+EXT NG3;ext_ng3;
+EXT SAL;ext_sal;
+EXTSAL2;ext_sal2;
+EXT SAL3;ext_sal3;
+EXT LBA;ext_lba;
+EXTLBA2;ext_lba2;
+EXT LBA3;ext_lba3;
+EXT NAPH;ext_naph;
+EXTNAPH2;ext_naph2;
+EXT NAPH3;ext_naph3;
+EXT TRBR;ext_trbr;
+EXTTRBR2;ext_trbr2;
+EXT TRBR3;ext_trbr3;
+EXTPOUM;ext_lung;
+EXT POUM2;ext_lung2;
+EXT AUTR;ext_other;
+EXT AUTR2;ext_other2;
+EXT AUTR3;ext_other3;
+N° NG;num_ng;
+N° SALIVE;num_sal;
+N° LBA;num_lba;
+N° NAPH;num_naph;
+N° TRBR;num_trbr;
+N° POUM;num_lung;
+Variant Ident/CRIB;variant_glims;
+RecordId;record_id;
+TRackBC;track_bc;
+TLabwareId;tlabware_id;
+TPositionId;tposition_id;
+TPositionBC;tposition_bc;
+TStatusSummary;tstatus_summary;
+TSumStateDescription;tsum_state_description;
+TVolume;tvolume;
+SRackBC;srack_bc;
+SLabwareId;slabware_id;
+SPositionId;sposition_id;
+SPositionBC;id_sample;
+ActionDateTime;action_date_time;check_date
+UserName;user_name;check_name
+Lane;lane;check_posint
+Sample_ID;sample_id_ss;
+Sample_Project;sample_project;
+index;index_1;check_index
+index2;index_2;check_index
+Sample_Project;sample_project;
+Set_index;set_index;
+protocol;protocol;
+primers;primers;
+sequencer;sequencer;
+run_id;id_seq_run;
+bioinfo_project;bioinfo_project;
+SampleID;sample_id_summary;
+summary_reference;reference;
+summary_mean_depth;mean_depth;check_float
+summary_percCOV;perc_cov;
+summary_hasdp;hasdp;
+summary_hasposc;hasposc;
+summary_5-10perc;five_ten_perc;check_posint
+summary_10-20perc;ten_twenty_perc;check_posint
+summary_20-50perc;twenty_fifty_perc;check_posint
+summary_varcount;sum_varcount;check_posint
+summary_coinf_maj_match;coinf_maj_match;
+summary_coinf_maj_common;coinf_maj_common;check_posint
+summary_coinf_maj_ratio;coinf_maj_ratio;check_float
+summary_coinf_min_match;coinf_min_match;
+summary_coinf_min_common;coinf_min_common;check_posint
+summary_coinf_min_ratio;coinf_min_ratio;check_posint
+summary_RUN;id_bioinfo_run;
+val_dp;dp;
+val_varcount;val_varcount;
+val_plate;id_plate;
+val_sampleid;id_sample;
+val_platewell;platewell;
+val_rbmcoverage;rbmcoverage;check_float
+val_spikecoverage;spikecoverage;check_float
+val_nextclade;nextclade;
+val_pangolin;pangolin;
+val_classmatch;classmatch;
+val_classindex;classindex;check_posint
+val_classcomment;classcomment;
+val_insertions;val_insertions;
+val_expectedprofile;expectedprofile;
+val_likelyprofile;likelyprofile;
+val_nocovsub;nocovsub;
+val_nocovins;nocovins;
+val_missingsub;missingsub;
+val_atypicsub;atypicsub;
+val_atypicindel;atypicindel;
+val_avisbio;avisbio;
+val_result;result;
+val_commentary;commentary;
+val_error;error;
+nextclade_clade;clade;
+nextclade_Nextclade_pango;nextclade_pango;
+nextclade_qc_overallScore;qc_overallScore;check_float
+nextclade_qc_overallStatus;qc_overallStatus;
+nextclade_totalSubstitutions;totalSubstitutions;check_posint
+nextclade_totalDeletions;totalDeletions;check_posint
+nextclade_totalInsertions;totalInsertions;check_posint
+nextclade_totalFrameShifts;totalFrameShifts;check_posint
+nextclade_totalAminoacidSubstitutions;totalAminoacidSubstitutions;check_posint
+nextclade_totalAminoacidDeletions;totalAminoacidDeletions;check_posint
+nextclade_totalAminoacidInsertions;totalAminoacidInsertions;check_posint
+nextclade_totalMissing;totalMissing;check_posint
+nextclade_totalNonACGTNs;totalNonACGTNs;check_posint
+nextclade_totalPcrPrimerChanges;totalPcrPrimerChanges;check_posint
+nextclade_substitutions;substitutions;
+nextclade_deletions;deletions;
+nextclade_insertions;nextclade_insertions;
+nextclade_privateNucMutations_reversionSubstitutions;privateNucMutations_reversionSubstitutions;
+nextclade_privateNucMutations_labeledSubstitutions;privateNucMutations_labeledSubstitutions;
+nextclade_privateNucMutations_unlabeledSubstitutions;privateNucMutations_unlabeledSubstitutions;
+nextclade_privateNucMutations_totalReversionSubstitutions;privateNucMutations_totalReversionSubstitutions;check_posint
+nextclade_privateNucMutations_totalLabeledSubstitutions;privateNucMutations_totalLabeledSubstitutions;check_posint
+nextclade_privateNucMutations_totalUnlabeledSubstitutions;privateNucMutations_totalUnlabeledSubstitutions;check_posint
+nextclade_privateNucMutations_totalPrivateSubstitutions;privateNucMutations_totalPrivateSubstitutions;check_posint
+nextclade_frameShifts;frameShifts;
+nextclade_aaSubstitutions;aaSubstitutions;
+nextclade_aaDeletions;aaDeletions;
+nextclade_aaInsertions;aaInsertions;
+nextclade_missing;missing;
+nextclade_nonACGTNs;nonACGTNs;
+nextclade_pcrPrimerChanges;pcrPrimerChanges;
+nextclade_alignmentScore;alignmentScore;check_posint
+nextclade_alignmentStart;alignmentStart;check_posint
+nextclade_alignmentEnd;alignmentEnd;check_posint
+nextclade_qc_missingData_missingDataThreshold;qc_missingData_missingDataThreshold;check_posint
+nextclade_qc_missingData_score;qc_missingData_score;check_float
+nextclade_qc_missingData_status;qc_missingData_status;
+nextclade_qc_missingData_totalMissing;qc_missingData_totalMissing;check_posint
+nextclade_qc_mixedSites_mixedSitesThreshold;qc_mixedSites_mixedSitesThreshold;check_posint
+nextclade_qc_mixedSites_score;qc_mixedSites_score;check_posint
+nextclade_qc_mixedSites_status;qc_mixedSites_status;
+nextclade_qc_mixedSites_totalMixedSites;qc_mixedSites_totalMixedSites;check_posint
+nextclade_qc_privateMutations_cutoff;qc_privateMutations_cutoff;check_posint
+nextclade_qc_privateMutations_excess;qc_privateMutations_excess;check_int
+nextclade_qc_privateMutations_score;qc_privateMutations_score;check_float
+nextclade_qc_privateMutations_status;qc_privateMutations_status;
+nextclade_qc_privateMutations_total;qc_privateMutations_total;check_posint
+nextclade_qc_snpClusters_clusteredSNPs;qc_snpClusters_clusteredSNPs;
+nextclade_qc_snpClusters_score;qc_snpClusters_score;check_posint
+nextclade_qc_snpClusters_status;qc_snpClusters_status;
+nextclade_qc_snpClusters_totalSNPs;qc_snpClusters_totalSNPs;check_posint
+nextclade_qc_frameShifts_frameShifts;qc_frameShifts_frameShifts;
+nextclade_qc_frameShifts_totalFrameShifts;qc_frameShifts_totalFrameShifts;check_posint
+nextclade_qc_frameShifts_frameShiftsIgnored;qc_frameShifts_frameShiftsIgnored;
+nextclade_qc_frameShifts_totalFrameShiftsIgnored;qc_frameShifts_totalFrameShiftsIgnored;check_posint
+nextclade_qc_frameShifts_score;qc_frameShifts_score;check_posint
+nextclade_qc_frameShifts_status;qc_frameShifts_status;
+nextclade_qc_stopCodons_stopCodons;qc_stopCodons_stopCodons;
+nextclade_qc_stopCodons_totalStopCodons;qc_stopCodons_totalStopCodons;check_posint
+nextclade_qc_stopCodons_score;qc_stopCodons_score;check_posint
+nextclade_qc_stopCodons_status;qc_stopCodons_status;
+nextclade_errors;nextclade_errors;
+pangolin_lineage;lineage;
+pangolin_conflict;conflict;check_float
+pangolin_ambiguity_score;ambiguity_score;check_float
+pangolin_scorpio_call;scorpio_call;
+pangolin_scorpio_support;scorpio_support;check_float
+pangolin_scorpio_conflict;scorpio_conflict;check_float
+pangolin_scorpio_notes;scorpio_notes;
+pangolin_version;pangolin_version;
+pangolin_pangolin_version;pangolin_version_nb;
+pangolin_scorpio_version;scorpio_version;
+pangolin_constellation_version;constellation_version;
+pangolin_is_designated;is_designated;
+pangolin_qc_status;qc_status;
+pangolin_qc_notes;qc_notes;
+pangolin_note;pangolin_note;

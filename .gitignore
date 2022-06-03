@@ -1,0 +1,7 @@
+files
+genepii-app/src/package_genepii/tests
+genepii-app/src/package_genepii/__pycache__
+genepii-app/src/package_genepii/log/errors.log
+genepii-app/src/package_genepii/log/sql_statements.log
+/ngs
+ngs.sif

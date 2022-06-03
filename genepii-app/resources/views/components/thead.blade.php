@@ -1,0 +1,1 @@
+<th {{ $attributes->merge(['class' => 'align-middle']) }}>{{ $slot }}</th>

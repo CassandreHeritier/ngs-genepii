@@ -1,0 +1,45 @@
+emergen_cols;db_cols
+Numéro de prélèvement;id_sample
+cluster;cluster
+enquête Flash;flash_study
+Retour de l’étranger dans les 14 jours;abroad_less_14d
+sujet vacciné;vaccinated
+réinfection;reinfection
+immunodéprimé;immunosuppressed
+cas graves;serious_case
+enquêtes dépistage;detection_survey
+échec traitement Ac;ac_treatment
+situation épidémiologique anormale;abnormal_situation
+surveillance sentinelles;sentinel_surv
+"Autre information sur le prélèvement (""CRIBLAGE"" ou ""SEQUENCAGE SYSTEMATIQUE"" par ex)";
+Année de naissance;
+Genre;
+Département résident;
+Date de prélèvement;sampling_date
+Nom du laboratoire préleveur;name_sampler
+Code postal du labo préleveur;department_sampler
+FINESS géographique du laboratoire préleveur;finess
+Nom du laboratoire expéditeur;name_sender
+Code postal du labo expéditeur;department_sender
+FINESS géographique du laboratoire expéditeur;
+Nom du laboratoire séquenceur;
+Date de réception du prélèvement;registration_date
+Date de résultat du séquençage;validation_date
+Technologie de séquençage;
+Longueur de séquençage;
+Résultat de la séquence (libre);
+clade;
+substitutions;
+deletions;
+insertions;
+aaSubstitutions;
+aaDeletions;
+missing;
+nonACGTNs;
+pcrPrimerChanges;
+Version de nextclade;
+Pango lineage;
+Pangolin version;
+pangoLEARN version;
+En-tête de la séquence dans le fichier fasta;
+Nomenclature SI-DEP (aide à la saisie du champ JOK3);

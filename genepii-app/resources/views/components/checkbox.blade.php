@@ -1,0 +1,1 @@
+<input {{ $attributes->merge([ 'name'=>'checkbox', 'type' => 'checkbox']) }}>

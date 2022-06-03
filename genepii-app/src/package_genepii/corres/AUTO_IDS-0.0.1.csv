@@ -1,0 +1,3 @@
+bioinfo_runs;extractions;medical_files;nextclade_results;pangolin_results;patients;pipeline_sets;plates;sampler_laboratories;samples;samplesheets;sender_laboratories;sequencing_runs;summary_results;validation_results
+id_bioinfo_run;id_extraction;id_medical_file;id_nextclade;id_pangolin;id_patient;id_set;id_plate;id_sampler_lab;id_sample;id_samplesheet;id_sender_lab;id_seq_run;id_summary;id_validation
+False;True;False;True;True;True;True;False;True;False;True;True;False;True;True

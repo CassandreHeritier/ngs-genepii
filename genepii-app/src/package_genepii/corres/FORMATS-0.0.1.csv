@@ -1,0 +1,16 @@
+NR;Pfizer;Moderna;Astrazeneca;Johnson&Johnson;NV;dates;NO;YES
+nr;pfizer;moderna;astrazeneca;johnson&johnson;no vaccin;%d/%m/%Y;non;oui
+non renseignée;pfi;moder;astra;john;nonvaccine;%d/%m/%y;pas de ct;cas grave
+nrnr;pfyzer;mod;ast;johnson;non vaccine;%Y/%m/%d;asymptomatique;Suspicion de réinfection
+pas d’info;P;M;A;JJ;;%d-%m-%Y;non vacciné;Suivi immunodéprimé
+nsp;;;;J&J;;%d/%m/%Y/%H:%M;no vaccin;Investigation de Cluster
+nc;;;;;;%d.%m.%Y;;Suspicion de co-infection
+ne sait pas;;;;;;%d%m%y;;Absence d'indication renseignée. Toute demande de séquençage SARS-CoV-2 doit être associée à une ou plusieurs indications mentionnées sur le bon de demande, comme défini dans le MINSANTE N°2021-48.
+NONRENSEIGNE;;;;;;%Y-%m-%d;;patient non vacciné
+NON CONNU;;;;;;%Y-%m-%d/%H:%M:%S;;SYMPTOMES APPARUS 2, 3 OU 4 JOURS AVANT LE PRELEVEMENT
+PASD'INFO;;;;;;%d-%m-%y;;SYMPTOMES APPARUS 5, 6 OU 7 JOURS AVANT LE PRELEVEMENT
+NONPRECISE;;;;;;%Y/%m/%d;;SYMPTOMES APPARUS LE JOUR OU LA VEILLE DU PRELEVEMENT
+Nonrenseignée;;;;;;%m/%d/%Y;;vaccin
+PASDINFO;;;;;;;;schema vaccinal
+nesaitpas;;;;;;;;Surveillance sentinelles
+NON RENSEIGNE;;;;;;;;Séquence non soumise dans gisaid
